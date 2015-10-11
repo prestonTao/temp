@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<style>
+  .base{
+    margin: 0;
+  }
+  a{
+    text-decoration:none;
+  }
+  .border{
+    border:black solid 1px;
+  }
+
+  .out{
+    border: red solid 1px;
+  }
+
+  .nav{
+    position: fixed;
+    height: 50px;
+    width: 100%;
+  }
+  .nav *{
+    float: left;
+  }
+  .nav .logo{
+    width: 100px;
+    height: 48px;
+  }
+  .nav a{
+    margin:15px 10px;
+  }
+  .nav .bu{
+    float: right;
+    padding:10px;
+    background-color: red;
+    margin:3px 5px;
+  }
+
+  .head{
+    border:black solid 1px;
+    height: 480px;
+  }
+  .head .title{
+    font-size: 42px;
+    width: 400px;
+    margin:0 auto;
+    margin-top:100px;
+  }
+  .head .input{
+    margin:0 auto;
+    width: 600px;
+  }
+  .head input{
+    width: 600px;
+    height: 40px;
+  }
+
+  .body{
+    height: 10000px;
+    width: 800px;
+    margin:0 auto;
+  }
+
+</style>
+<body class="base">
+  <div class="out">
+    <div class="nav border">
+      <div class="logo border"></div>
+      <a href="">按钮1</a>
+      <a href="">按钮2</a>
+      <div class="bu">注册</div>
+      <div class="bu">登录</div>
+    </div>
+    <div class="head">
+      <div class="title border">你好，世界</div>
+      <div class="input border"><input type="text"/></div>
+    </div>
+    <div class="body border">
+      
+    </div>
+  </div>
+    
+</body>
+</html>
